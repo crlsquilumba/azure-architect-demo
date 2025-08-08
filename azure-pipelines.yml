@@ -3,3 +3,13 @@ trigger:
 
 pool:
   vmImage: 'ubuntu-latest'
+
+stages:
+- stage: InitialCheck
+  displayName: 'Initial Pipeline Check'
+  jobs:
+  - job: Check
+    displayName: 'Run Basic Check'
+    steps:
+    - script: echo "Pipeline is running successfully!"
+      displayName: 'Echo Message'
