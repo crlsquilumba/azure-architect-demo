@@ -1,5 +1,6 @@
  trigger:
- - main # Se activa con cualquier push a la rama main
+ - main
+ - develop # Se activa con cualquier push a la rama develop
 
  pool:
    vmImage: 'ubuntu-latest'
