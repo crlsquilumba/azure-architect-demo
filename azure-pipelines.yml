@@ -12,4 +12,4 @@ stages:
     displayName: 'Run Basic Check'
     steps:
     - script: echo "Pipeline is running successfully!"
-      displayName: 'Echo Message'
+      displayName: 'Echo Message 1'
