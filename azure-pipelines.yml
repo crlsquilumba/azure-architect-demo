@@ -1,5 +1,5 @@
  trigger:
- - main
+ #- main
  - develop # Se activa con cualquier push a la rama develop
 
  pool:
