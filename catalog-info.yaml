@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: azure-architect-demo
+  description: Demo azure architect
+  annotations:
+    github.com/project-slug: crlsquilumba/azure-architect-demo
+spec:
+  type: library
+  lifecycle: experimental
+  owner: user:default/guest
