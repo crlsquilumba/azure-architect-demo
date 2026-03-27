@@ -5,7 +5,21 @@ metadata:
   description: Demo azure architect
   annotations:
     github.com/project-slug: crlsquilumba/azure-architect-demo
+    github.com/branch-count: "3"
+    github.com/has-gitflow: "true"
+    github.com/default-branch: "main"
+    github.com/pending-develop: "6 commits"
+  links:
+    - url: https://github.com/crlsquilumba/azure-architect-demo/tree/main
+      title: "✅ main — producción"
+      icon: github
+    - url: https://github.com/crlsquilumba/azure-architect-demo/tree/develop
+      title: "🔧 develop (6 commits pendientes)"
+      icon: github
+    - url: https://github.com/crlsquilumba/azure-architect-demo/tree/quality
+      title: "🌿 quality"
+      icon: github
 spec:
   type: library
-  lifecycle: experimental
+  lifecycle: production
   owner: user:default/guest
